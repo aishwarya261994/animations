@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+/* .circle{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: bounce 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(0px,100px);
+    }
+    50%{
+        transform: translate(0px,200px);
+    }
+    75%{
+        transform: translate(0px,300px);
+    }
+    100%{
+        transform: translate(0px,400px);
+    }
+    
+} */
+.text{
+    border: 2px solid green;
+    width: 600px;
+}
+h1{
+    font-size: small;
+    animation: textmove 4s linear ;
+    animation-iteration-count: infinite;
+    color: black;
+
+}
+@keyframes textmove{
+    100%{
+        transform: translate(0px,0px);
+        transition: ease-out;
+        color: blue;
+        
+    }
+      85%{
+        transform: translate(100px,0px);
+        transition: ease-out;
+        color: green;
+       
+    }
+    75%{
+        transform: translate(200px,0px);
+        transition: ease-out;
+        color: brown;
+    }
+    50%{
+        transform: translate(300px,0px);
+        transition: ease-out;
+        color: orange;
+    }
+    25%{
+        transform: translate(400px,0px);
+        transition: ease-out;
+        color: purple;
+    }
+   0%{
+        transform: translate(500px,0px);
+        transition: ease-out;
+        color: orangered;
+    }
+    
+}
+        </style>
+    </head>
+    <body>
+        <div class="circle">
+
+        </div>
+        <div class="text"><h1><font color="black">HELLO</font> WELCOME</h1></div>
+    </body>
+</html>
